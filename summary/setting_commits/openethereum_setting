@@ -1,0 +1,4 @@
+80afb78c7 - Arkadiy Paronyan, 5 years ago : Disabling debug symbols due to rustc 1.12 memory usage
+e114b0b28 - André Silva, 4 years, 1 month ago : Upgrade to RocksDB 5.8.8 and tune settings to reduce space amplification (#7348)
+b6ccbdb69 - arkpar, 6 years ago : Lower max handshakes to reduce network load
+629b480d6 - debris, 6 years ago : reduce max vm depth per thread to 64

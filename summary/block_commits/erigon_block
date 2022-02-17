@@ -1,0 +1,13 @@
+c2003ed63 - Felföldi Zsolt, 2 years, 11 months ago : les, les/flowcontrol: improved request serving and flow control (#18230)
+c3f238dd5 - Felföldi Zsolt, 4 years ago : les: limit LES peer count and improve peer configuration logic (#16010)
+924065e19 - Felix Lange, 4 years ago : consensus/ethash: improve cache/dataset handling (#15864)
+cc436c4b2 - obscuren, 7 years ago : eth: additional cleanups to the subprotocol, improved block propagation
+b3c058a9e - Felix Lange, 7 years ago : p2p: improve disconnect signaling at handshake time
+4800c9439 - Péter Szilágyi, 7 years ago : eth/downloader: prioritize block fetch based on chain position, cap memory use
+75cb93898 - Alex Sharov, 1 year, 1 month ago : rpcdaemon performance improve - less reading blocks, less allocs on server (#1426)
+af9321777 - Péter Szilágyi, 7 years ago : p2p: reduce the concurrent handshakes to 10/10 in/out
+4f457859a - Péter Szilágyi, 2 years, 10 months ago : core: use headers only where blocks are unnecessary
+14bef9a2d - Péter Szilágyi, 3 years, 4 months ago : core: fix unnecessary ancestor lookup after a fast sync (#17825)
+18a7d3133 - Jim McDonald, 4 years ago : miner: avoid unnecessary work (#15883)
+9f8bc00cf - Martin Holst Swende, 5 years ago : eth, miner: removed unnecessary state.Copy()
+76821d167 - Felix Lange, 7 years ago : core, eth, rpc: avoid unnecessary block header copying

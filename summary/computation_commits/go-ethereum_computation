@@ -1,0 +1,22 @@
+155795be9 - Martin Holst Swende, 6 weeks ago : core/vm: avoid memory expansion check for trivial ops (#24048)
+edb1937cf - Martin Holst Swende, 4 months ago : core: improve shutdown synchronization in BlockChain (#22853) (o)
+f5f906dd0 - Martin Holst Swende, 7 months ago : eth/tracers: improve tracing performance (#23016)
+e868adde3 - Martin Holst Swende, 1 year, 8 months ago : core/vm: improve jumpdest lookup (#21123)
+3e9ba5766 - Anton Evangelatov, 2 years, 9 months ago : swarm/storage: improve instrumentation
+38c7eb0f2 - Wenbiao Zheng, 3 years, 8 months ago : trie: rename TrieSync to Sync and improve hexToKeybytes (#16804)
+924065e19 - Felix Lange, 4 years ago : consensus/ethash: improve cache/dataset handling (#15864)
+3285a0fda - Martin Holst Swende, 4 years, 8 months ago : core/vm, common/math: Add fast getByte for bigints, improve opByte
+d9efaf754 - Bas van Kervel, 7 years ago : simplified implementation and improved performance
+f5abc9f18 - obscuren, 7 years ago : core, core/vm: state improvements and tx pool speed up
+d3be1a271 - obscuren, 7 years ago : eth: moved mined, tx events to protocol-hnd and improved tx propagation
+c2c24b3bb - obscuren, 7 years ago : downloader: improved downloading and synchronisation
+a34a971b5 - obscuren, 7 years ago : improved blockchain downloading (o)
+99be62a9b - fomotrader, 5 weeks ago : accounts/abi: avoid unnecessary alloc (#24128)
+d50e9d24b - jacksoom, 10 months ago : consensus/ethash: remove unnecessary variable definition (#22512)
+653e8b9dd - jk-jeongkyun, 1 year, 1 month ago : eth/downloader: remove unnecessary condition (#22052)
+5183483c5 - Christian Muehlhaeuser, 2 years, 6 months ago : core/state, p2p/discover, trie, whisper: avoid unnecessary conversions (#19870)
+1d1bee528 - Guillaume Ballet, 2 years, 10 months ago : fix unnecessary condition linter warning
+ea06da089 - Sarlor, 3 years, 8 months ago : trie: avoid unnecessary slicing on shortnode decoding (#16917) (o)
+ad0e6e971 - Felix Lange, 6 years ago : console: remove unnecessary JS evaluation in Welcome
+d791fe497 - Taylor Gerring, 7 years ago : Remove unnecessary event mux
+08c26ab8b - obscuren, 7 years ago : Removed unnecessary code.

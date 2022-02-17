@@ -1,0 +1,4 @@
+e81069ab3 - Marek Kotewicz, 3 years, 7 months ago : fixed ipc leak, closes #8774 (#8876)
+c8b65c769 - arkpar, 6 years ago : Fixed handshake leak
+0109e5e9d - Tomasz Drwięga, 6 years ago : Removing memory leak when transactions are dropped from set
+d0129ff67 - arkpar, 6 years ago : Fixed cache memory leak

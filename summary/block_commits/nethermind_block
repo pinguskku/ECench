@@ -1,0 +1,5 @@
+54f6b7746 - Szymon Kulec, 1 year, 3 months ago : JsonRPC performance improvements (#2435)
+2df25f8e2 - Tomasz Kajetan Stanczak, 2 years, 1 month ago : selector improvements for cases when we encounter a node synced up to below 32
+782ad85d4 - Grzegorz Lesniakiewicz, 3 years, 7 months ago : Fixing sending too many messages to peers, improved logging, handled few network edge cases
+27a3af8bc - Grzegorz Lesniakiewicz, 3 years, 7 months ago : Added ping timer and disconnect on missing too many pings, logging improvements
+2a4a7418c - Tomasz Kajetan Stanczak, 3 years, 3 months ago : removing unnecessary block download verbosity for now

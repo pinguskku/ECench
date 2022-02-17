@@ -1,0 +1,4 @@
+8fc82b6e9 - Danno Ferrin, 2 years, 2 months ago : NewBlockHeaders performance improvement (#230)
+6b47c8fc4 - fab-10, 3 weeks ago : Stream JSON RPC responses to avoid creating big JSON strings in memory (#3076)
+bb7a12f03 - Danno Ferrin, 2 years, 4 months ago : [perf] reduce header validation in Clique fast sync (#1935)
+136aa5306 - Ratan Rai Sur, 1 year, 9 months ago : remove unnecessary persist (#569)

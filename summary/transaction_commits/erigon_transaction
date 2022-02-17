@@ -1,0 +1,2 @@
+61ca780f3 - Jeffrey Wilcke, 7 years ago : core: reduce CPU load by reducing calls to checkQueue
+db86092cc - Andrew Ashikhmin, 6 months ago : Remove unnecessary value transfer check from TransitionDb (#2424)

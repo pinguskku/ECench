@@ -1,0 +1,30 @@
+476fb565c - Martin Holst Swende, 3 months ago : miner, consensus/clique: avoid memory leak during block stasis (#23861)
+9e59474e4 - Shihao Xia, 6 months ago : core/rawdb: close database in test to avoid goroutine leak (#23287)
+3e68d627b - Martin Holst Swende, 9 months ago : les: fix goroutine leaks in tests (#22707)
+bc4799369 - Martin Holst Swende, 11 months ago : tests/fuzzers: fix goroutine leak in les fuzzer (#22455)
+2fc465a7b - Péter Szilágyi, 12 months ago : Merge pull request #22319 from karalabe/fix-defer-leak
+62dc59c2b - lzhfromustc, 1 year, 1 month ago : miner, test: fix potential goroutine leak (#21989)
+d97e0063d - Péter Szilágyi, 1 year, 5 months ago : Merge pull request #21491 from karalabe/state-sync-leak-fix
+d8da0b3d8 - Péter Szilágyi, 1 year, 5 months ago : core/state, eth, trie: stabilize memory use, fix memory leak
+87c463c47 - Péter Szilágyi, 1 year, 9 months ago : Merge pull request #21036 from karalabe/snapshot-storage-leak
+65cd28aa0 - Péter Szilágyi, 1 year, 9 months ago : tests: cleanup snapshot generator goroutine leak
+be6078ad8 - Boqin Qin, 1 year, 10 months ago : all: fix a bunch of inconsequential goroutine leaks (#20667)
+a5a9feab2 - ucwong, 1 year, 10 months ago : whisper: fix whisper go routine leak with sync wait group (#20844)
+68b4b7468 - Péter Szilágyi, 1 year, 10 months ago : Merge pull request #20762 from karalabe/fix-txprop-leak
+270fbfba4 - Péter Szilágyi, 1 year, 10 months ago : eth: fix transaction announce/broadcast goroutine leak
+1b9c5b393 - Boqin Qin, 1 year, 11 months ago : all: fix goroutine leaks in unit tests by adding 1-elem channel buffer (#20666)
+a9614c3c9 - Boqin Qin, 1 year, 11 months ago : event, p2p/simulations/adapters: fix rare goroutine leaks (#20657)
+a013f02df - wangxiang, 2 years, 1 month ago : whisper/whisperv6: fix peer time.Ticker leak (#20520)
+a1cd7e6e9 - Elad, 2 years, 9 months ago : p2p/protocols, swarm/network: fix resource leak with p2p teardown
+ba2dfa5ce - Janoš Guljaš, 2 years, 11 months ago : swarm/network/stream: fix a goroutine leak in Registry (#19139)
+a0127019c - Elad, 2 years, 11 months ago : swarm: fix uptime gauge update goroutine leak by introducing cleanup functions (#19040)
+26aea7367 - Janoš Guljaš, 3 years ago : cmd, node, p2p/simulations: fix node account manager leak (#19004)
+319098cc1 - Péter Szilágyi, 3 years, 7 months ago : trie: fix a temporary memory leak in the memcache
+13db4af34 - Péter Szilágyi, 4 years, 1 month ago : Merge pull request #15696 from ferhatelmas/p2p-goroutine-leak
+afa3c72c4 - ferhat elmas, 4 years, 1 month ago : p2p/discover: fix leaked goroutine in data expiration
+e20158176 - Felix Lange, 4 years, 8 months ago : les: fix goroutine leak in execQueue (#14480)
+ae1b5b3ff - Felix Lange, 6 years ago : eth, xeth: fix GasPriceOracle goroutine leak
+bf48ed32d - Felix Lange, 6 years ago : metrics: fix file descriptor leak when reading disk stats on linux
+499276503 - Péter Szilágyi, 7 years ago : p2p/discover: fix goroutine leak due to blocking on sync.Once
+79a6782c1 - Felix Lange, 7 years ago : p2p: fix goroutine leak when handshake read fails
+22ee366ed - Felix Lange, 7 years ago : p2p: fix goroutine leak for invalid peers

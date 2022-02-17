@@ -1,0 +1,2 @@
+7052fda3b - Adrian Sutton, 2 years, 2 months ago : Shutdown vertx instance created within BesuCommand so BesuCommandTest doesn't leak file descriptors. (#209)
+10b853b13 - Adrian Sutton, 3 years, 3 months ago : [NC-1772] Release DisconnectMessage to avoid leaking memory allocation. (#130)

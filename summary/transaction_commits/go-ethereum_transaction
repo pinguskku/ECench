@@ -1,0 +1,3 @@
+be87f769f - Marius van der Wijden, 11 months ago : core/types: reduce allocations in GasPriceCmp (#22456)
+61ca780f3 - Jeffrey Wilcke, 7 years ago : core: reduce CPU load by reducing calls to checkQueue
+21fa29111 - obscuren, 7 years ago : core: reduce max allowed queued txs per address

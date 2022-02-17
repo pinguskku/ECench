@@ -1,0 +1,21 @@
+22eea17b0 - Gustav Simonsson, 5 years ago : light: fix memory expansion bug (same as fix for core/state)
+581b320b9 - Nick Johnson, 5 years ago : core/state: Fix memory expansion bug by not copying clean objects
+75cb93898 - Alex Sharov, 1 year, 1 month ago : rpcdaemon performance improve - less reading blocks, less allocs on server (#1426)
+a816e7566 - Jeffrey Wilcke, 4 years, 8 months ago : core/vm: improved push instructions
+40cdcf118 - Felix Lange, 5 years ago : trie, core/state: improve memory usage and performance (#3135)
+f14fc201d - AusIV, 1 year, 7 months ago : core/rawdb: fix high memory usage in freezer (#21243)
+621e3a207 - Alex Sharov, 1 year, 6 months ago : Ci lmdb - reduce memory usage  (#762)
+b16e56052 - Andrew Ashikhmin, 1 year, 8 months ago : Use uint256.Int rather than common.Hash for storage values to reduce memory allocation in opSload & opSstore (#575)
+df2857542 - Andrew Ashikhmin, 1 year, 8 months ago : Use pointers to hashes in Get(Commited)State to reduce memory allocation (#573)
+1aaa4da98 - Martin Holst Swende, 2 years, 3 months ago : core/evm: avoid copying memory for input in calls (#20177)
+81801ccc2 - atsushi-ishibashi, 3 years ago : core/state: more memory efficient preimage allocation (#16663)
+f5af1fdca - obscuren, 7 years ago : core/vm: RETURN op code returns pointer to memory rather than copy
+94106cc41 - Paweł Bylica, 7 years ago : JitVm code cleanups & refactoring. Some memory copies eliminated (i.e. in SHA3 calculation)
+1c24b9371 - ledgerwatch, 6 months ago : Refactoring of rpctest to reduce copy-paste and enable error recording (#2401)
+476cb0c4c - Péter Szilágyi, 1 year, 5 months ago : core/state/snapshot: reduce disk layer depth during generation
+483618a4f - Felix Lange, 1 year, 7 months ago : rlp: reduce allocations for big.Int and byte array encoding (#21291)
+4d3004c15 - Marius van der Wijden, 1 year, 7 months ago : trie: reduce allocs in insertPreimage (#21261)
+e8ea5aa0d - Felix Lange, 3 years, 8 months ago : trie: reduce hasher allocations (#16896)
+3f33a7c8c - Felix Lange, 3 years, 8 months ago : consensus/ethash: reduce keccak hash allocations (#16857)
+ac697326a - Jeffrey Wilcke, 6 years ago : core/vm: reduced big int allocations
+184e9ae9a - Jeffrey Wilcke, 6 years ago : core, tests: reduced state copy by N calls

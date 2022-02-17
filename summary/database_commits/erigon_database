@@ -1,0 +1,3 @@
+693d9ccbf - Felix Lange, 4 years, 7 months ago : trie: more node iterator improvements (#14615)
+5d80a1b66 - Guillaume Ballet, 3 years, 2 months ago : whisper/mailserver: reduce the max number of opened files (#18142)
+207bd5575 - obscuren, 7 years ago : eth: reduced max open files for LevelDB

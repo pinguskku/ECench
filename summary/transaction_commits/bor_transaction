@@ -1,0 +1,6 @@
+0ff2adb21 - Bas van Kervel, 6 years ago : core: improved check for contract creation
+a2919b5e1 - obscuren, 7 years ago : core, eth, miner: improved tx removal & fatal error on db sync err
+be87f769f - Marius van der Wijden, 11 months ago : core/types: reduce allocations in GasPriceCmp (#22456)
+a355b401d - Péter Szilágyi, 4 years, 8 months ago : ethstats: reduce ethstats traffic by trottling reports
+61ca780f3 - Jeffrey Wilcke, 7 years ago : core: reduce CPU load by reducing calls to checkQueue
+21fa29111 - obscuren, 7 years ago : core: reduce max allowed queued txs per address

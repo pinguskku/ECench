@@ -1,0 +1,13 @@
+db03faa10 - Martin Holst Swende, 7 weeks ago : core, eth: improve delivery speed on header requests (#23105) (o)
+661809714 - Janoš Guljaš, 3 years, 2 months ago : swarm: snapshot load improvement (#18220)
+4800c9439 - Péter Szilágyi, 7 years ago : eth/downloader: prioritize block fetch based on chain position, cap memory use
+8fbe0b9b6 - Evolution404, 8 weeks ago : p2p/enr: reduce allocation in Record.encode (#24034)
+7194c847b - Felix Lange, 8 months ago : p2p/rlpx: reduce allocation and syscalls (#22899)
+f4d81178d - Péter Szilágyi, 4 years, 8 months ago : Merge pull request #14563 from karalabe/ethstats-reduce-traffic-2
+855e76fdd - obscuren, 7 years ago : core: reduced cache limit to 256
+af9321777 - Péter Szilágyi, 7 years ago : p2p: reduce the concurrent handshakes to 10/10 in/out
+4f457859a - Péter Szilágyi, 2 years, 10 months ago : core: use headers only where blocks are unnecessary
+14bef9a2d - Péter Szilágyi, 3 years, 4 months ago : core: fix unnecessary ancestor lookup after a fast sync (#17825) (o)
+18a7d3133 - Jim McDonald, 4 years ago : miner: avoid unnecessary work (#15883) (o)
+9f8bc00cf - Martin Holst Swende, 5 years ago : eth, miner: removed unnecessary state.Copy()
+76821d167 - Felix Lange, 7 years ago : core, eth, rpc: avoid unnecessary block header copying (o)

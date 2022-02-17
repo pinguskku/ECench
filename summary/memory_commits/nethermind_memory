@@ -1,0 +1,5 @@
+5663734cf - Tomasz Kajetan Stanczak, 2 years, 6 months ago : SignExtend 50x speed no alloc improvement #717
+69507b6b2 - Tomasz Kajetan Stanczak, 2 years, 10 months ago : more memory improvements
+3cd30d5fb - Tomasz K. Stanczak, 4 years, 2 months ago : codecopy, memorystress, returndata - with questionable performance on jumps - work in progress
+a8e23580c - Tomasz K. Stanczak, 3 years, 8 months ago : removed unnecessary branch creation
+2e2b9646d - Tomasz K. Stanczak, 3 years, 8 months ago : remaining update path - removed unnecessary allocations

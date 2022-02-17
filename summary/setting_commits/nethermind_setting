@@ -1,0 +1,3 @@
+c866f29f0 - Tomasz Kajetan Stańczak, 1 year, 9 months ago : improved NLog based on the snakefoot's feedback (#1775)
+c3b0f59b3 - Mateusz Jędrzejewski, 2 years, 2 months ago : adding env variables to reduce typing when excluding unnecessary test… (#1049)
+9e6f95184 - Mateusz Jędrzejewski, 1 year, 7 months ago : removing unnecessary lib, fix hive workflow (#2092)

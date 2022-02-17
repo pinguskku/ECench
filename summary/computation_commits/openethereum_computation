@@ -1,0 +1,18 @@
+01f825b0e - Jim Posen, 3 years, 7 months ago : Multiple improvements to discovery ping handling (#8771)
+8e8679807 - Tomasz Drwięga, 3 years, 9 months ago : Transaction Pool improvements (#8470)
+e32b60053 - Marek Kotewicz, 3 years, 11 months ago : improve quality of vote_collector module (#7984)
+fbad6b551 - debris, 4 years, 3 months ago : removed redundant mut from kvdb-memorydb
+9083923f2 - debris, 4 years, 5 months ago : optimized memorydb insert, remove and emplace
+e06d1dbb0 - Robert Habermeier, 4 years, 7 months ago : Merge pull request #5801 from guanqun/use-retain-for-memorydb
+92fd00f41 - Tomasz Drwięga, 6 years ago : EVM gas for memory tiny optimization (#1578)
+6ddabc0f4 - Kirill Pimenov, 4 years, 2 months ago : Small performance gain in allocations
+cd3a1c1a9 - Guanqun Lu, 4 years, 8 months ago : use rust 1.18's new feature to boost the purge performance
+99d6d87e7 - Arkadiy Paronyan, 5 years ago : Discovery performance optimization (#2972)
+c5aed5bab - adria0, 1 year, 6 months ago : Fix warnings: unnecessary mut
+1020560af - Niklas Adolfsson, 3 years, 8 months ago : Remove a couple of unnecessary `transmute()` (#8736)
+72094a8be - Jef, 4 years, 7 months ago : Reduce unnecessary allocations (#5944)
+531bc79ed - Marek Kotewicz, 5 years ago : removed unused code from util and unnecessary dependency of FixedHash (#1824)
+4269867ca - Robert Habermeier, 6 years ago : remove unnecessary assertion
+7b9db37d8 - debris, 6 years ago : removed unnecessary logs
+db869fcdd - Robert Habermeier, 6 years ago : remove unnecessary reference
+d2cc3b9b5 - Gav Wood, 6 years ago : Remove unnecessary unwraps in json_aid.

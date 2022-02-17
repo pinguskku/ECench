@@ -1,0 +1,25 @@
+e01f936b3 - Alex Sharov, 1 year, 7 months ago : improve dupsort experiment (#737)
+57358730a - Alex Sharov, 1 year, 7 months ago : Minor lmdb related improvements (#667)
+fa538ee7e - Felix Lange, 2 years, 7 months ago : p2p/discover: improve randomness of ReadRandomNodes (#19799) (o)
+661809714 - Janoš Guljaš, 3 years, 2 months ago : swarm: snapshot load improvement (#18220)
+38c7eb0f2 - Wenbiao Zheng, 3 years, 8 months ago : trie: rename TrieSync to Sync and improve hexToKeybytes (#16804)
+3285a0fda - Martin Holst Swende, 4 years, 8 months ago : core/vm, common/math: Add fast getByte for bigints, improve opByte
+bbc4ea4ae - Jeffrey Wilcke, 5 years ago : core/vm: improved EVM run loop & instruction calling (#3378)
+d9efaf754 - Bas van Kervel, 7 years ago : simplified implementation and improved performance
+f5abc9f18 - obscuren, 7 years ago : core, core/vm: state improvements and tx pool speed up
+d3be1a271 - obscuren, 7 years ago : eth: moved mined, tx events to protocol-hnd and improved tx propagation
+c2c24b3bb - obscuren, 7 years ago : downloader: improved downloading and synchronisation (o)
+0217652d1 - Felix Lange, 7 years ago : p2p/discover: improve timer handling for reply timeouts
+4e95cecfb - Felix Lange, 7 years ago : ethlog: improve dispatch concurrency
+a34a971b5 - obscuren, 7 years ago : improved blockchain downloading
+8bc293b3f - Igor Mandrigin, 1 year, 6 months ago : Remove unnecessary memory profiling (#872)
+d5c2e5fd9 - ledgerwatch, 8 months ago : checkChangeSet to work with MDBX, load senders for better performance (#2024)
+5ae602e9a - alex.sharov, 11 months ago : less metrics performance impact
+1611815b8 - SjonHortensius, 2 years, 5 months ago : cmd/utils: reduce light.maxpeers default for clients to 1/10th (#19933)
+b3e18e483 - jk-jeongkyun, 1 year, 1 month ago : eth/downloader: remove unnecessary condition (#22052)
+1ffbb9775 - alex.sharov, 2 years, 2 months ago : removed unnecessary allocations, add tcp context
+5183483c5 - Christian Muehlhaeuser, 2 years, 6 months ago : core/state, p2p/discover, trie, whisper: avoid unnecessary conversions (#19870)
+ea06da089 - Sarlor, 3 years, 8 months ago : trie: avoid unnecessary slicing on shortnode decoding (#16917)
+ad0e6e971 - Felix Lange, 6 years ago : console: remove unnecessary JS evaluation in Welcome
+d791fe497 - Taylor Gerring, 7 years ago : Remove unnecessary event mux
+08c26ab8b - obscuren, 7 years ago : Removed unnecessary code.

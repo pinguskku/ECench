@@ -1,0 +1,2 @@
+df627f40a - Tomasz Kajetan Stanczak, 2 years, 5 months ago : move the TrieNodeDecoder inside TrieNode so we do not have to expose private members, also added test coverage and fixed the tiny extension bug, also added a few performance improvements
+064b02967 - Tomasz K. Stanczak, 3 years, 9 months ago : huge memory fix (db snapshots)

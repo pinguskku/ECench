@@ -1,0 +1,2 @@
+7093651d7 - Arkadiy Paronyan, 5 years ago : More performance optimizations (#1814)
+f826ac35e - Marek Kotewicz, 3 years, 6 months ago : Removed redundant struct bounds and unnecessary data copying (#9096)

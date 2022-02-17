@@ -1,0 +1,8 @@
+4b783c006 - Martin Holst Swende, 9 months ago : trie: improve the node iterator seek operation (#22470)
+693d9ccbf - Felix Lange, 4 years, 7 months ago : trie: more node iterator improvements (#14615)
+13f8f65a5 - obscuren, 7 years ago : eth, ethdb: lower the amount of open files & improve err messages for db
+3ebfeb09f - AusIV, 1 year, 7 months ago : core/rawdb: fix high memory usage in freezer (#21243)
+04a72260c - Melvin Junhee Woo, 1 year ago : snapshot: merge loops for better performance (#22160)
+5d80a1b66 - Guillaume Ballet, 3 years, 2 months ago : whisper/mailserver: reduce the max number of opened files (#18142)
+207bd5575 - obscuren, 7 years ago : eth: reduced max open files for LevelDB
+783e97ef1 - Sina Mahmoodi, 4 months ago : core/rawdb: avoid unnecessary receipt processing for log filtering (#23147)

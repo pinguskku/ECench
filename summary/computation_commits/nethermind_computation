@@ -1,0 +1,10 @@
+19dbcfb70 - Daniel Celeda, 5 months ago : Feature/improve jumpdest analysis (#3371)
+5d19d52ee - Tomasz Kajetan Stańczak, 1 year, 7 months ago : minor sha2 perf improvements (#2031)
+a52d6d170 - Tomasz K. Stanczak, 3 years, 9 months ago : jump destinations performance improvement
+ada40a0f5 - Tomasz K. Stanczak, 3 years, 11 months ago : ethash performance improvements
+69507b6b2 - Tomasz Kajetan Stanczak, 2 years, 10 months ago : more memory improvements
+df0d538bd - Tomasz Kajetan Stanczak, 2 years, 10 months ago : Now -> UtcNow (performance)
+cbdb6e648 - Tomasz K. Stanczak, 4 years, 2 months ago : some performance work
+8f8e52166 - Tomasz Kajetan Stanczak, 2 years ago : remove unnecessary Keccak allocation from NedDataFeed
+d0d6d900e - Tomasz Kajetan Stanczak, 3 years, 5 months ago : unnecessary
+54e592362 - Tomasz K. Stanczak, 3 years, 8 months ago : test remove unnecessary update root hash

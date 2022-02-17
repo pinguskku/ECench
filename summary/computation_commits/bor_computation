@@ -1,0 +1,29 @@
+f5f906dd0 - Martin Holst Swende, 7 months ago : eth/tracers: improve tracing performance (#23016)
+256c5d68b - Gregory Markou, 9 months ago : eth/gasprice: improve stability of estimated price (#22722)
+fa538ee7e - Felix Lange, 2 years, 7 months ago : p2p/discover: improve randomness of ReadRandomNodes (#19799)
+1a3e25e4c - Anton Evangelatov, 2 years, 11 months ago : swarm: tracing improvements (#19249)
+38c7eb0f2 - Wenbiao Zheng, 3 years, 8 months ago : trie: rename TrieSync to Sync and improve hexToKeybytes (#16804)
+3285a0fda - Martin Holst Swende, 4 years, 8 months ago : core/vm, common/math: Add fast getByte for bigints, improve opByte
+7d0ac9480 - Bas van Kervel, 4 years, 10 months ago : rpc: improve BlockNumber unmarshal parsing
+bbc4ea4ae - Jeffrey Wilcke, 5 years ago : core/vm: improved EVM run loop & instruction calling (#3378)
+115364b0a - Péter Szilágyi, 5 years ago : Merge pull request #3475 from fjl/rpc-hex-improvements
+1fc5cc1b5 - Bas van Kervel, 5 years ago : node: improve error handling for web3_sha3 RPC method
+d9efaf754 - Bas van Kervel, 7 years ago : simplified implementation and improved performance
+6fdddc5ac - Bas van Kervel, 7 years ago : improved error handling in parsing request
+f5abc9f18 - obscuren, 7 years ago : core, core/vm: state improvements and tx pool speed up
+ea2718c94 - Felix Lange, 7 years ago : core/vm: improve JUMPDEST analysis
+d98a6f85f - obscuren, 7 years ago : core: further improved uncle error messages
+580bae0a8 - obscuren, 7 years ago : core: improved uncle messages
+d3be1a271 - obscuren, 7 years ago : eth: moved mined, tx events to protocol-hnd and improved tx propagation
+c2c24b3bb - obscuren, 7 years ago : downloader: improved downloading and synchronisation
+0217652d1 - Felix Lange, 7 years ago : p2p/discover: improve timer handling for reply timeouts
+e1ed8c33b - obscuren, 7 years ago : Improved chain manager, improved block processor, fixed tests
+4e95cecfb - Felix Lange, 7 years ago : ethlog: improve dispatch concurrency
+1611815b8 - SjonHortensius, 2 years, 5 months ago : cmd/utils: reduce light.maxpeers default for clients to 1/10th (#19933)
+d50e9d24b - jacksoom, 10 months ago : consensus/ethash: remove unnecessary variable definition (#22512)
+653e8b9dd - jk-jeongkyun, 1 year, 1 month ago : eth/downloader: remove unnecessary condition (#22052)
+1d1bee528 - Guillaume Ballet, 2 years, 10 months ago : fix unnecessary condition linter warning
+ea06da089 - Sarlor, 3 years, 8 months ago : trie: avoid unnecessary slicing on shortnode decoding (#16917)
+ad0e6e971 - Felix Lange, 6 years ago : console: remove unnecessary JS evaluation in Welcome
+d791fe497 - Taylor Gerring, 7 years ago : Remove unnecessary event mux
+08c26ab8b - obscuren, 7 years ago : Removed unnecessary code.

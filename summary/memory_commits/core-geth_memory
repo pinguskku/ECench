@@ -1,0 +1,17 @@
+22eea17b0 - Gustav Simonsson, 5 years ago : light: fix memory expansion bug (same as fix for core/state)
+581b320b9 - Nick Johnson, 5 years ago : core/state: Fix memory expansion bug by not copying clean objects
+2954f40ea - lmittmann, 3 months ago : common/hexutil: improve performance of EncodeBig (#23780)
+a816e7566 - Jeffrey Wilcke, 4 years, 8 months ago : core/vm: improved push instructions
+40cdcf118 - Felix Lange, 5 years ago : trie, core/state: improve memory usage and performance (#3135)
+b566cfdff - Martin Holst Swende, 2 years, 3 months ago : core/evm: avoid copying memory for input in calls (#20177)
+81801ccc2 - atsushi-ishibashi, 3 years ago : core/state: more memory efficient preimage allocation (#16663)
+f5af1fdca - obscuren, 7 years ago : core/vm: RETURN op code returns pointer to memory rather than copy
+94106cc41 - Paweł Bylica, 7 years ago : JitVm code cleanups & refactoring. Some memory copies eliminated (i.e. in SHA3 calculation)
+3ee91b9f2 - Péter Szilágyi, 1 year, 5 months ago : core/state/snapshot: reduce disk layer depth during generation
+6315b6fcc - Felix Lange, 1 year, 7 months ago : rlp: reduce allocations for big.Int and byte array encoding (#21291)
+b482423e6 - Marius van der Wijden, 1 year, 7 months ago : trie: reduce allocs in insertPreimage (#21261)
+e8ea5aa0d - Felix Lange, 3 years, 8 months ago : trie: reduce hasher allocations (#16896)
+3f33a7c8c - Felix Lange, 3 years, 8 months ago : consensus/ethash: reduce keccak hash allocations (#16857)
+ac697326a - Jeffrey Wilcke, 6 years ago : core/vm: reduced big int allocations
+184e9ae9a - Jeffrey Wilcke, 6 years ago : core, tests: reduced state copy by N calls
+8fe47b0a0 - Marius van der Wijden, 7 months ago : core/state: avoid unnecessary alloc in trie prefetcher (#23198)
